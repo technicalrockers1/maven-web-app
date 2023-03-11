@@ -49,6 +49,7 @@ node{
         kubernetesDeploy(
             configs: 'maven-web-app-deploy.yml',
             kubeconfigId: 'Kube-Config'
-        )
-    }    
+          )
+      }    
+   }
 }
